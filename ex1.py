@@ -4,7 +4,7 @@ print("Enter distances separated by space all in one line: ") # 5 11 26 39 3 7
 mylist1 = np.array([int(x) for x in input().split()])
 row = int(len(mylist1) / 2)
 mylist2 = mylist1.reshape(row, 2)
-print(mylist2[1])
+print(mylist2)
 def sumIntervals(mylist2):
     sum = 0
     for i in range(0, mylist2):
