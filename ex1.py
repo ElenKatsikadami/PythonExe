@@ -9,9 +9,9 @@ def sumIntervals(mylist2):
     sum = 0
     for i in range(0, len(mylist2)):
         sum += mylist2[i][1] - mylist2[i][0]
-        if mylist2[i] == mylist2[i+1]:
+        '''if mylist2[i] == mylist2[i+1]:
             sum += mylist2[i+1][i+1] - mylist2[i+1][i]
-        #elif
+        elif'''
     print(sum)
 
 
